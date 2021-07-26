@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>AccountHandler</servlet-name>
+    <servlet-class>com.wavemediamgmt.bryce</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AccountHandler</servlet-name>
+    <url-pattern>/AccountHandler</url-pattern>
+</servlet-mapping>

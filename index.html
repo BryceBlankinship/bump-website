@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-light">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bryce</title>
-  <link rel="stylesheet" href="/style.css" type="text/css" />
-  <script src="/theme.js"></script>
+  <title>Testing SQL Connection</title>
+  <script src=app.js></script>
 </head>
 
-<body>
-  <div class="container">
-    <label id="switch" class="switch">
-            <input type="checkbox" onchange="toggleTheme()" id="slider">
-            <span class="slider round"></span>
-        </label>
-        <h1>Bryce's Test Environment</h1>
+<body>This is a test sign in
 
-    <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
-  </div>
+    <form action="AccountHandler" method="POST" class="form" id="loginForm">
+        <input type="text" id="username" name="user" placeholder="Username"></input>
+        <input type="text" id="password" name="pass" placeholder="Password"></input>
+        <input type="submit" onclick='sendData()'>
+    </form>
+    
+    
+  
 </body>
 
 </html>
